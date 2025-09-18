@@ -15,6 +15,7 @@ The project applies concepts of **denormalization, query-based table design, and
 You will be working with a dataset of user activity logs (`event_data`), partitioned by date. Examples of file paths:
 
 event_data/2018-11-08-events.csv
+
 event_data/2018-11-09-events.csv
 
 These CSV files contain user activity events such as song plays, and are used to create a denormalized dataset for Cassandra.
